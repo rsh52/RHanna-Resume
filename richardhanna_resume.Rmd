@@ -120,7 +120,7 @@ Richard S. Hanna {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "In my role as a data analyst and engineer at CHOP, I develop solutions to drive clinical decisions and support clinical needs. The scope of my work includes pediatric cardiac arrest, endotracheal intubation, and quality improvement initiatives both within the hospital and externally at facilities around the world. My passion is to provide both education and problem solving support through data science and engineering in an effort to improve patient care and answer cutting-edge medical questions. 
+intro_text <- "In my role as a data analyst and engineer at CHOP, I develop solutions to drive clinical decisions and support clinical needs. The scope of my work includes pediatric cardiac arrest, endotracheal intubation, and quality improvement initiatives both within the hospital and externally at facilities internationally. Two of my largest projects involve the _[Pediatric Resuscitation Quality Collaborative (pediRES-Q)](https://www.pedires-q.org/)_ and the _[National Emergency Airway Registry (NEAR)](http://www.nearstudy.net/)_ for pediatrics and neonates. My passion is to provide both education and problem solving support through data science and engineering in an effort to improve patient care and answer cutting-edge medical questions. 
 "
 
 
