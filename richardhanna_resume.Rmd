@@ -54,9 +54,9 @@ Contact {#contact}
 
 
 
-- <i class="fa fa-envelope"></i> richardshanna91@gmail.com
-- <i class="fa fa-twitter"></i> richard_s_hanna
-- <i class="fa fa-github"></i> github.com/rsh52
+- <i class="fa fa-envelope"></i> <richardshanna91@gmail.com>
+- <i class="fa fa-twitter"></i> [richard_s_hanna](https://twitter.com/Richard_S_Hanna)
+- <i class="fa fa-github"></i> [github.com/rsh52](https://github.com/rsh52)
 - <i class="fa fa-link"></i> [richardshanna.com](https://www.richardshanna.com/)
 - <i class="fa fa-phone"></i> (609) 320-2923
 
@@ -64,7 +64,6 @@ Contact {#contact}
 
 Language Skills {#skills}
 --------------------------------------------------------------------------------
-
 
 ```{r}
 skills <- tribble(
@@ -91,14 +90,18 @@ skills <- tribble(
 build_skill_bars(skills)
 ```
 
-- Proficient in BI software: Tableau, Power BI, Microstrategy 
+BI Software Skills {#skills}
+--------------------------------------------------------------------------------
+- Tableau
 
+- Power BI
 
 Certifications {#certifications}
 --------------------------------------------------------------------------------
 
-- [FE/EIT Certified by NCEES](https://account.ncees.org/rn/1522538-735396-d9a0ace): August 30th, 2014
+- [FE/EIT Certified by NCEES](https://account.ncees.org/rn/1522538-735396-d9a0ace)
 
+- AHA Basic Life Support (BLS) Certified
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
