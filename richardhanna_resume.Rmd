@@ -149,9 +149,13 @@ position_data %>% print_section('positions')
 Selected Publications & Posters {data-icon=chart-bar}
 --------------------------------------------------------------------------------
 
-
 ```{r}
 position_data %>% print_section('publications')
 ```
 
+Related Experience {data-icon=project-diagram}
+--------------------------------------------------------------------------------
 
+```{r}
+position_data %>% print_section('related_experience')
+```
