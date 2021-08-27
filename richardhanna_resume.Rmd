@@ -62,7 +62,7 @@ Contact {#contact}
 
 
 
-Language Skills {#skills}
+Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -70,22 +70,9 @@ skills <- tribble(
   ~skill,               ~level,
   "R",                  5,
   "SQL",                3.5,
+  "Linux",              3,
   "Python",             3,
   "MATLAB",             3
-)
-build_skill_bars(skills)
-```
-
-CAD and FE Skills {#skills}
---------------------------------------------------------------------------------
-
-```{r}
-skills <- tribble(
-  ~skill,               ~level,
-  "ProENGINEER/Creo",   5,
-  "AutoDesk Inventor",  4,
-  "Altair Hypermesh",   3,
-  "Catia V5",           3
 )
 build_skill_bars(skills)
 ```
@@ -101,16 +88,12 @@ Certifications {#certifications}
 
 - [FE/EIT Certified by NCEES](https://account.ncees.org/rn/1522538-735396-d9a0ace)
 
-- AHA Basic Life Support (BLS) Certified
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 Made in **R** using the [**pagedown**](https://github.com/rstudio/pagedown) package. 
 
 Last updated on `r Sys.Date()`.
-
-
 
 
 Main
@@ -120,9 +103,8 @@ Richard S. Hanna {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "In my role as a data analyst and engineer at CHOP, I develop solutions to drive clinical decisions and support clinical needs. The scope of my work includes pediatric cardiac arrest, endotracheal intubation, and quality improvement initiatives both within the hospital and externally at facilities internationally. Two of my largest projects involve the _[Pediatric Resuscitation Quality Collaborative (pediRES-Q)](https://www.pedires-q.org/)_ and the _[National Emergency Airway Registry (NEAR)](http://www.nearstudy.net/)_ for pediatrics and neonates. My passion is to provide both education and problem solving support through data science and engineering in an effort to improve patient care and answer cutting-edge medical questions. 
+intro_text <- "As a Data Scientist at the Children’s Hospital of Philadelphia, I develop data-driven solutions and design operational software to support clinical and research needs. The contextual scope of my work has ranged from [pediatric cardiac arrest](https://www.pedires-q.org/) to [airway management](http://www.nearstudy.net/) and, most recently, to cell and gene therapy and stem cell transplantation. My passion is to provide both education and problem solving support through data science and engineering in an effort to improve patient care and answer cutting-edge medical questions. 
 "
-
 
 cat(sanitize_links(intro_text))
 ```
