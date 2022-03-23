@@ -69,7 +69,9 @@ Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "R",                  5,
-  "SQL",                3.5,
+  "REDCap",             5,
+  "SQL",                4,
+  "AWS",                3.5,
   "Linux",              3,
   "Python",             3,
   "MATLAB",             3
@@ -77,16 +79,11 @@ skills <- tribble(
 build_skill_bars(skills)
 ```
 
-BI Software Skills {#skills}
---------------------------------------------------------------------------------
-- Tableau
-
-- Power BI
-
 Certifications {#certifications}
 --------------------------------------------------------------------------------
 
 - [AWS Solutions Architect](https://www.credly.com/badges/44361ea8-9eb9-4f27-99ca-05b582f5b962?source=linked_in_profile)
+
 - [FE/EIT Certified by NCEES](https://account.ncees.org/rn/1522538-735396-d9a0ace)
 
 Disclaimer {#disclaimer}
@@ -104,7 +101,7 @@ Richard S. Hanna {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "As a Data Scientist on the Cell & Gene Therapy DataOps team at the Children’s Hospital of Philadelphia, I develop novel applications, dashboards, reports, and tools to support clinical research and drive innovative solutions. I am excited to work in such a fast-paced, evolving field that provides opportunities to create change and I thoroughly enjoy being able to create in ways that meet modern day clinical challenges. Prior to this role, I had the pleasure of working in the fields of critical care, biomechanics, and medical device development.
+intro_text <- "As a Data Scientist on the Cell & Gene Therapy DataOps team at the Children’s Hospital of Philadelphia, I develop novel applications, dashboards, reports, and tools to support clinical research and drive innovative solutions. I am excited to work in such a fast-paced, evolving field that provides opportunities to create change and meet modern day clinical challenges. Prior to this role, I have worked in critical care, biomechanics, and medical device development.
 "
 
 cat(sanitize_links(intro_text))
