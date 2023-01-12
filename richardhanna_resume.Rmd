@@ -101,7 +101,7 @@ Richard S. Hanna {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "As a Data Scientist on the Cell & Gene Therapy DataOps team at the Children’s Hospital of Philadelphia, I develop novel applications, dashboards, reports, and tools to support clinical research and drive innovative solutions. I am excited to work in such a fast-paced, evolving field that provides opportunities to create change and meet modern day clinical challenges. Prior to this role, I have worked in critical care, biomechanics, and medical device development.
+intro_text <- "As a Data Scientist on the Cell & Gene Therapy Informatics team at the Children’s Hospital of Philadelphia, I develop novel applications, dashboards, packages, reports, and tools to support clinical research and drive innovative solutions. I am excited to work in such a fast-paced, evolving field that provides opportunities to create change and meet modern day clinical challenges. Prior to this role, I have worked in critical care, biomechanics, and medical device development.
 "
 
 cat(sanitize_links(intro_text))
